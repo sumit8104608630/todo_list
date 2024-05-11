@@ -12,6 +12,12 @@ function add() {
         inputField.value = '';
     
 }
+document.addEventListener("keydown",key)
+function key(event){
+    if (event.key == "Enter"){
+        add()
+    }
+}
 
 // Function to create a new list item
 function createListItem(text) {

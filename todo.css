@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(70, 0, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main {
+  display:  flex;
+  flex-direction: column;
+}
+
+.search {
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: row;
+   
+}
+.listadd {
+    width: calc(100% - 50px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.add {
+    width: 50px;
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 2rem;
+}
+.add:hover {
+    background-color: #ededed;
+}
+
+/* Styles for the todo list items */
+.lists {
+    margin-bottom: 10px;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #2a04a4;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: white;
+}
+.delete {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.delete i {
+    font-size: 18px;
+    color: #888;
+}
+.delete:hover i {
+    color: #555;
+}
+
+/* Styles for the delete all button */
+.deleteall {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+}
+

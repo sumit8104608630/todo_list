@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="stylesheet" href="todo.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body><div class="main">
+    <div class="search">
+        <input type="search" class="listadd" placeholder="Rahul is">
+        <button class="add" onclick="add()">+</button>
+    </div>
+    <div class="lists"><span class="list"></span><button onclick="del()" class="delete"></button></div>
+    <button class="deleteall" onclick="clearAll()"><i class="fa-solid fa-trash" style="color: #050505;"></i></button>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
